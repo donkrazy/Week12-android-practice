@@ -138,14 +138,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2/5"
-        android:id="@+id/textView6"
+        android:id="@+id/score_count"
         android:textColor="#000"
         android:textSize="18dp"
         android:layout_marginLeft="8dp"
         android:layout_above="@+id/button1"
         android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2" />
+        android:layout_toEndOf="@+id/textView2"
+        android:text="0/0" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9"
-        android:id="@+id/textView9"
+        android:id="@+id/rightInt"
         android:textSize="52dp"
         android:textColor="#000"
         android:layout_alignTop="@+id/textView8"
@@ -193,7 +193,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9"
-        android:id="@+id/textView7"
+        android:id="@+id/leftInt"
         android:textSize="52dp"
         android:textColor="#000"
         android:layout_alignTop="@+id/textView8"
