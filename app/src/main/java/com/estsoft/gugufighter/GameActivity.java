@@ -159,11 +159,11 @@ public class GameActivity extends AppCompatActivity {
 
     //타이머
     private class MyTimerTask extends TimerTask {
-        private int seconds = 3;
+        private int seconds = 10;
 
         @Override
         public void run() {
-            if( --seconds < 0 ) {
+            if( --seconds == 0 ) {
                 timer.cancel();
                 //startActivity();
                 runOnUiThread(new Runnable() {
