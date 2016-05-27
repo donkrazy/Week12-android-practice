@@ -18,7 +18,13 @@
         <activity android:name=".GameActivity" />
         <activity android:name=".RecordActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".ResultActivity"></activity>
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ResultTheme"
+            android:excludeFromRecents="true"
+            android:noHistory="true" />
+
     </application>
 
 </manifest>

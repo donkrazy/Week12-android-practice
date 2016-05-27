@@ -22,7 +22,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         Integer count = intent.getIntExtra( "data-count", -1 );
 
         //점수
-        String result = score+"/"+count;
+        String result = "맞음:" + score+"/"+ "전체: " + count;
         TextView tv_result = (TextView)findViewById( R.id.result );
         tv_result.setText( result );
 
